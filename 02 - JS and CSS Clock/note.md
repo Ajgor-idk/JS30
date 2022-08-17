@@ -1,0 +1,2 @@
+### Progress note ###
+I started with watching what we want to do and how we want to do it. Used a little bit of help with seconds but figured out myself most of it. I had an idea how it shold work but I would need a little more time to think about the degrees thing. Preventing hands from jumping did it all by myslef also with little help how i could do it. Also remember while assigning the degrees to the styles stick the "deg" end to the number that's the only small bug I got here.
