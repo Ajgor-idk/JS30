@@ -1,0 +1,2 @@
+### Porgress Note ###
+I only had a problem with the last 3 ones here. The wikipedia one I just didn't understand how do we take the info from page (we don't just simulated it). The one with people was just hard to bite at first but if you have any idea how to separate the name you can roll. And the last one was just wierd but I think reduce is just wierd. Conclusion is to just do more of this because i see where you can use it and it's important.
