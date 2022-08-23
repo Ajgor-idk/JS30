@@ -1,46 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Console Tricks!</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Console Tricks!</title>
+  </head>
+  <body>
+    <p onClick="makeGreen()">×BREAK×DOWN×</p>
 
-  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+    <script>
+      const dogs = [
+        { name: "Snickers", age: 2 },
+        { name: "hugo", age: 8 },
+      ];
 
-  <script>
-    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+      function makeGreen() {
+        const p = document.querySelector("p");
+        p.style.color = "#BADA55";
+        p.style.fontSize = "50px";
+      }
 
-    function makeGreen() {
-      const p = document.querySelector('p');
-      p.style.color = '#BADA55';
-      p.style.fontSize = '50px';
-    }
+      // Regular
+      console.log("Hello there Obiwan!");
 
-    // Regular
+      // Interpolated
+      const addedTxt = "duck";
+      console.log("Hi I'm a %s string!", "long");
+      console.log(`Hello I'm a ${addedTxt}!`);
 
-    // Interpolated
+      // Styled
+      console.log("%c Yoooo I'm red brooo", "color: red;");
 
-    // Styled
+      // warning!
+      console.warn("Somethings wrong. I can feel it!");
 
-    // warning!
+      // Error :|
+      console.error("Ohhh man! Not again!");
 
-    // Error :|
+      // Info
+      console.info("2 + 2 is 4 - 1 that's 3. Quick maths");
 
-    // Info
+      // Testing
+      console.assert(7 + 7 === 11, "It's 14 dummy");
 
-    // Testing
+      // clearing
+      // console.clear() Just cleans a console from my beautiful messages.
 
-    // clearing
+      // Viewing DOM Elements
+      const p = document.querySelector("p");
+      //Shows the place of an element.
+      console.log(p);
+      //Shows methods I can use on the element.
+      console.dir(p);
 
-    // Viewing DOM Elements
+      // Grouping together
+      dogs.forEach((dog) => {
+        console.groupCollapsed(`${dog.name}`);
+        console.log(`This is ${dog.name}.`);
+        console.log(`${dog.name} is ${dog.age} years old.`);
+        console.log(`${dog.name} is ${dog.age * 7} years old in dog years.`);
+        console.groupEnd(`${dog.name}`);
+      });
+      //console.group open you all the info, but console.groupCollapsed makes them closed with an option to look inside later if you need.
+      // counting
+      console.count(`Times "Maria" was mentioned`);
+      console.count(`Times "Helen" was mentioned`);
+      console.count(`Times "Helen" was mentioned`);
+      console.count(`Times "Maria" was mentioned`);
+      console.count(`Times "Helen" was mentioned`);
+      console.count(`Times "Helen" was mentioned`);
+      console.count(`Times "Maria" was mentioned`);
+      console.count(`Times "Helen" was mentioned`);
+      console.count(`Times "Maria" was mentioned`);
+      console.count(`Times "Helen" was mentioned`);
+      console.count(`Times "Maria" was mentioned`);
 
-    // Grouping together
-
-    // counting
-
-    // timing
-
-  </script>
-</body>
+      // timing
+      console.time("Fetching data lasted");
+      fetch("https://api.github.com/users/webos")
+        .then((response) => response.json())
+        .then((data) => {
+          console.timeEnd("Fetching data lasted");
+          console.log(data);
+        });
+    </script>
+  </body>
 </html>
