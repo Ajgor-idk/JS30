@@ -1,0 +1,2 @@
+### Progress Note ###
+Another day another really cool expierence. Learned a lot about video players. No problems but like with the canvas I wanted to make it with the video to learn. Will do the extra task tommorow.
