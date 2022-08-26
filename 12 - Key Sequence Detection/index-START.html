@@ -7,6 +7,16 @@
 </head>
 <body>
 <script>
+  const pressed = []
+  const secredCode = "yoooo"
+
+  window.addEventListener("keyup", (event) => {
+    pressed.push(event.key)
+    pressed.splice(-secredCode.length - 1, pressed.length - secredCode.length)
+    if (pressed.join("").includes(secredCode)) {
+      console.log("You did it");
+    }
+  })
 </script>
 </body>
 </html>
