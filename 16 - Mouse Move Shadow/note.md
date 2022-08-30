@@ -1,0 +1,2 @@
+### Progress Note ###
+Man I love that kind of excercises. They are fun and you can learn a lot. Mostly I learned that mouse event that require movement are hard. And now being honest they are hard but the hardness is in the calculations you just need to do them and you're set. I know I'll have some problems with this when I'll want to do something like that but it just takes practice.
