@@ -1,0 +1,2 @@
+### Progress Note ###
+I don't know maybe I was tired, but it shold've been easier than it was. And I didn't quite understood the task which I found out at the end. It was easy I'll try to understand it smoother after a rest and it should click. The most important is to try to improve and don't feel down even when something easy is "hard".
