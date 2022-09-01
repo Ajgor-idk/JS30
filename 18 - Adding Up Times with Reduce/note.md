@@ -1,0 +1,2 @@
+### Progress Note ###
+Funny I had to think about this one a little bit longer, because of the rest of hours left and all that. Kinda hard to think about it when you do it for the first time but I understand it now. I wanted to circle around it more, but this method is pretty smooth.
