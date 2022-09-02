@@ -1,0 +1,2 @@
+### Progress Note ###
+Really big lesson. Also cool although I don't have a webcam so I couldn't play with it :(. I kinda understand, but to be honset I would need to do it more alone with the cam so I guess I'll end this one in just a theory.
