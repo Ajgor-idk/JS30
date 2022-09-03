@@ -1,0 +1,2 @@
+### Progress Note ###
+Funny one also. Interesting fact is that it doesn't work on OperaGX so you'll need to use Chrome or something simillar. Also interesting thing is that the language isn't set so it takes the browser language. I don't think that is that useful in browser, but maybe I don't do see the potential. Antoher thing is with the applications though.
