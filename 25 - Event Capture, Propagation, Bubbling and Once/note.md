@@ -1,0 +1,2 @@
+### Progress Note ###
+Easy one and I already knew it. Really important though, because it can make some bugs in bigger projects. What I learned is the once option and it's cool because it saves so much space it's a removeEventListener but it's one liner.
