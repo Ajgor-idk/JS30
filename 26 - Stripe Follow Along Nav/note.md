@@ -1,0 +1,2 @@
+### Progress Note ###
+More math and coordinates. I quite like it so it's fine. Interesting thing is adding classes to an element there like fusing them in time and not doing it instantly. Definitely could use it for smooth animations.
