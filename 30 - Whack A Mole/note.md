@@ -1,0 +1,2 @@
+### Progress Note ###
+That's it. The whole month is up! I had fun playing with this lesson and making small games and funcionalities. I learned a thing or two and most importantly I refreshed my knowledge about some things. Glad I got a chance to play with it and that's it with that one!
